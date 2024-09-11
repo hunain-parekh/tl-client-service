@@ -12,5 +12,5 @@ export class CreateClientDto {
 
   @IsOptional()
   @IsBoolean()
-  readonly _active?: boolean; 
+  readonly _active?: boolean;
 }

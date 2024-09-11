@@ -15,5 +15,5 @@ export class UpdateClientDto {
 
   @IsOptional()
   @IsBoolean()
-  readonly _active?: boolean; 
+  readonly _active?: boolean;
 }

@@ -14,7 +14,7 @@ export class Client {
   @Prop({ required: true, unique: true })
   poc_email: string;
 
-  @Prop({ default: false })
+  @Prop({ default: true })
   _active: boolean;
 }
 
